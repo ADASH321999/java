@@ -1,0 +1,26 @@
+package typeCasting;
+
+public class WindeningAndNarrowingTypecasting {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        byte h = 3;
+		short t = h;
+		int x = t;
+		long r = x;
+		float a = r;
+		double s = a;
+		System.out.println(s);
+		double e = 1.168311;
+		float w = (float)e;
+		long z = (long)w;
+		int q = (int)z;
+		short y = (short)q;
+		byte n = (byte)y;
+		System.out.println(n);
+		
+		
+ 
+	}
+
+}

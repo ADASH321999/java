@@ -1,0 +1,20 @@
+package userImport;
+import java.util.Scanner;
+public class UserImport {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Principle");
+		Scanner sc = new Scanner(System.in);
+		int principle = sc. nextInt();
+		System.out.println("Rate");
+		float rate = sc. nextFloat();
+		System.out.println("Time");
+		int time = sc. nextInt();
+		float simpleInterest =(rate*principle*time/100);
+		System.out.println("thus, simple interest is" +simpleInterest);
+		
+
+	}
+
+}

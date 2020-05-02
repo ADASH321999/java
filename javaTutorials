@@ -1,0 +1,25 @@
+package dataTypes;
+
+public class DataTypes {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+     short c = 7;
+     byte g = 1;
+     int x = 5;
+     long b = 196843;
+     char myname = 'A';
+     float k = 154.67851f;
+     double m = 48745165.5988935;
+     System.out.println(c);
+     System.out.println(g);
+     System.out.println(x);
+     System.out.println(b);
+     System.out.println(myname);
+     System.out.println(k);
+     System.out.println(m);
+     
+     
+	}
+
+}

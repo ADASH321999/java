@@ -5,15 +5,15 @@ public class Algorithmic {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Number1");
+		System.out.println("Number'b'");
 		int a = sc. nextInt();
-		System.out.println("Number2");
+		System.out.println("Number'a'");
 		int b = sc. nextInt();
 		  int  c = a*a+b*b+2*a*b;
 		  int  d = a*a+b*b-2*a*b;
           
-		  System.out.println("(a+b)*(a+b)=" +c);
-          System.out.println("(a+b)*(a+b)=" +d);
+	      System.out.println("(a+b)*(a+b)=" +c);
+              System.out.println("(a-b)*(a-b)=" +d);
      
 	}
 }

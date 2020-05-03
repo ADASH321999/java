@@ -1,0 +1,20 @@
+package operatorAssign;
+
+public class AssignmentOperator {
+
+	public static void main(String[] args) {
+     
+   int a =5;
+   int b =3;
+   int c = a+= 3;
+   int d = b-= 2;
+   int e =a>>=2;
+   int f =b<<=1;
+   System.out.println(e);
+   System.out.println(c);
+   System.out.println(d);
+   System.out.println(f);
+
+	}
+
+}

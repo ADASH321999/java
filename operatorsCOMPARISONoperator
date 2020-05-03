@@ -1,1 +1,24 @@
 
+package operatorsComparison;
+import java.util.Scanner; 
+public class CompareTwoNumber {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		double a= sc.nextDouble();
+		
+		int x = (int)a; 
+		System.out.println("NUMBER1="+a);
+		double b = sc.nextDouble();
+		int y = (int)b;
+		System.out.println("NUMBER2="+b);
+		 if (a<b){
+		System.out.println("NUMBER1 is smaller than NUMBER2");
+		 }else {
+			 System.out.println("NUMBER1 is bigger than NUMBER2");
+		 }
+		
+
+	}
+
+}

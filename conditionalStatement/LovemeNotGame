@@ -1,0 +1,18 @@
+package conditionalStatement2;
+import java.util.Scanner;
+public class LovemeNotGame {
+
+	public static void main(String[] args) {
+		  Scanner sc = new Scanner (System.in);
+		  System.out.print("Number of Petals =");
+		  int x = sc.nextInt();
+		  
+		  if (x%2==0) {
+			  System.out.println("Loves YOU");
+		  }else {
+			  System.out.println("Don't love you");
+			  
+		  }
+	}
+
+}

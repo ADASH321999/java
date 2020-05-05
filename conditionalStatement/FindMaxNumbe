@@ -1,0 +1,21 @@
+package conditionalStatement4;
+import java.util.Scanner;
+public class FindMaxNumber {
+
+	public static void main(String[] args) {
+		 Scanner sc =new Scanner (System.in);
+		 System.out.print("ENTER FIRST NUMBER =");
+		 int a = sc.nextInt();
+		 System.out.print("ENTER SECOND NUMBER =");
+		 int b = sc.nextInt();
+		 System.out.print("ENTER THIRD NUMBER =");
+		 int c = sc.nextInt();
+		 int result =0;
+		 result = a>b?a>c?a:c:b>c?b:c;
+		 System.out.println("MAX NUMBER="+result);
+		 
+		
+
+	}
+
+}

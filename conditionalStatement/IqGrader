@@ -1,0 +1,24 @@
+package conditionalStatement3;
+import java.util.Scanner;
+public class IqGrader{
+
+	public static void main(String[] args) {
+		 Scanner sc = new Scanner(System.in);
+		 System.out.print("Enter your IQ Test Number=");
+		 int x = sc.nextInt();
+		 if (x <100) {
+	System.out.println("Below Average IQ");		 
+		 }else if (x >= 100 && x <120) {
+			 System.out.println("Avearge IQ ");
+		 }else if (x>=120 && x<140 ) {
+			 System.out.println("Above Average IQ");
+		 }else if (x>=140 && x<=200 ) {
+		  System.out.println("Genius");
+		 }
+		 else {
+				System.out.println(" Invalid Number");
+		 }
+
+	}
+
+}

@@ -1,0 +1,40 @@
+package loops;
+import java.util.Scanner;
+public class SumOfNumbers {
+
+
+			public static void main(String[] args) {
+				 Scanner sc = new Scanner(System.in); 
+				System.out.print("Number of foward sum natural number= ");
+				 int x = sc.nextInt();
+				int sum1 = 0;
+				
+				for (int i=0;i<=x;i++) {
+					sum1 =i+ sum1;
+					
+					
+					
+					
+				}
+				 System.out.print("Number of backward sum natural number= ");
+				 int y =sc.nextInt(); 
+				 int sum2= 0;
+				 for (int i=y;i>=1;i--) {
+					 sum2 =i+sum2;
+					
+				 }
+				 System.out.println("Sum 1="+sum1);
+				 
+				 System.out.println("Sum 2="+sum2);
+				 
+				 System.out.println("Total sum="+(sum1+sum2) );
+				 
+			}
+
+		
+
+
+
+	}
+
+

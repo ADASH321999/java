@@ -1,0 +1,23 @@
+package loops5;
+import java.util.Scanner;
+public class OptimizationInPrimeNumber {
+   
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		  System.out.print("Enter a number =");
+		
+		int x = sc.nextInt ();
+		boolean Prime = true;
+for (int i =2; i*i <= x;i++) {
+if (x%i==0) {
+	Prime = false; 
+	break;
+}
+}
+if (x<2) {
+         Prime = false;                        
+         }
+         System.out.println( x+ " is prime : " + Prime);     
+
+}
+}

@@ -1,0 +1,28 @@
+package loops;
+
+public class BreakAndContinue {
+
+	public static void main(String[] args) {
+		int Sum = 0;
+		for(int i = 1;i<=100;i++) {
+			Sum +=i;
+			if( i ==50) {
+				break;
+			}
+		
+			}
+		
+		
+	int Sum2 =0;
+	for (int i =1;i<=10;i++) {
+		
+		if ( i>=40&&i<=50) {
+			continue; 
+			}
+		Sum2 +=i;
+		
+		}
+		System.out.println("Sum of number from 1 to 100 but stop the Sum to 1 to 50 =" +Sum);
+		System.out.println("Sum of number from 1 to 100 but dont sum number from 40 to 50 ="+Sum2);
+	}
+}

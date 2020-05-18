@@ -1,0 +1,53 @@
+package arrays4;
+import java.util.Scanner;
+public class MatrixMultiplicaton {
+
+	public static void main(String[] args) {
+		 Scanner sc=new Scanner(System.in);
+		 System.out.println("Dimension of Matrix1");
+		 System.out.print("Row1 = ");
+		 int row1 = sc.nextInt();
+		 System.out.print("Column1 = ");
+		 int cols1 = sc.nextInt();
+		 int[][]a = new int[row1][cols1];
+		 System.out.println("Dimension of Matrix2");
+		 System.out.print("Row2 =");
+		 int row2 = sc.nextInt();
+		 System.out.print("Column2=");
+		 int cols2=sc.nextInt();
+		 int[][]b= new int [row2][cols2];
+		 if(cols1!=row2) {
+			 System.out.println("Can't multiply the Matrix,Since it voliate the essential condition of Column1= Row2");
+			 
+		 }
+		 else {
+			 System.out.println("Enter the number in Matrix1");
+			 for (int i1 = 0;i1 <row1;i1++) {
+				 for (int j1 =0;j1 < cols1; j1++) {
+					 a[i1][j1] = sc.nextInt();				 
+				 }
+				 }
+			 System.out.println("Enter the number in Matrix2");
+			 for(int i2 =0;i2 < row2;i2++) {
+				 for(int j2 =0; j2< cols2;j2++) {
+					 b[i2][j2] =  sc.nextInt();
+					 
+				 }
+			 }
+			 System.out.println("The result Matrix 3 = ");
+			 int row =row1;
+			 int cols=cols2;
+			 int [][]c= new int [row][cols];
+			 for (int i =0;i< row;i++) {
+				 for(int j=0;j< cols;j++) {
+					 for(int k=0;k<cols1;k++) {
+						 c[i][j]+=a[i][k]*b[k][j];
+					 }System.out.print(c[i][j]+" ");
+				 }System.out.println();
+			 }
+			 
+		 }
+
+	}
+
+}
